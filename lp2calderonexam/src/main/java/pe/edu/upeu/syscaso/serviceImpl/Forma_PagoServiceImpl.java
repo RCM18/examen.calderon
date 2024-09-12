@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import pe.edu.upeu.syscaso.dao.Forma_PagoDao;
 import pe.edu.upeu.syscaso.entity.Forma_Pago;
 import pe.edu.upeu.syscaso.service.Forma_PagoService;
 
+@Service
 public class Forma_PagoServiceImpl implements Forma_PagoService{
 	@Autowired
 	private Forma_PagoDao dao;

@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import pe.edu.upeu.syscaso.dao.AlmacenDao;
 import pe.edu.upeu.syscaso.entity.Almacen;
 import pe.edu.upeu.syscaso.service.AlmacenService;
 
+@Service
 public class AlmacenServiceImpl implements AlmacenService{
 	@Autowired
 	private AlmacenDao dao;

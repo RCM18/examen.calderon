@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import pe.edu.upeu.syscaso.dao.ProveedorDao;
 import pe.edu.upeu.syscaso.entity.Proveedor;
 import pe.edu.upeu.syscaso.service.ProveedorService;
 
+@Service
 public class ProveedorServiceImpl implements ProveedorService{
 	@Autowired
 	private ProveedorDao dao;

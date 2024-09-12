@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import pe.edu.upeu.syscaso.entity.Almacen;
 
+
 public interface AlmacenDao {
 	Almacen create(Almacen c);
 	Almacen update(Almacen c);

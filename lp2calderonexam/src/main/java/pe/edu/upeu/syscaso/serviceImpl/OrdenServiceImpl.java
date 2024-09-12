@@ -4,11 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import pe.edu.upeu.syscaso.dao.OrdenDao;
 import pe.edu.upeu.syscaso.entity.Orden;
 import pe.edu.upeu.syscaso.service.OrdenService;
 
+@Service
 public class OrdenServiceImpl implements OrdenService{
 	@Autowired
 	private OrdenDao dao;
